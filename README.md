@@ -1,0 +1,2 @@
+# OpenChat
+A chat server.
