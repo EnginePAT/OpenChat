@@ -17,8 +17,8 @@
   <button onclick="sendMessage()">Send</button>
 
   <script>
-    const supabaseUrl = "YOUR_SUPABASE_URL";
-    const supabaseKey = "YOUR_ANON_KEY";
+    const supabaseUrl = "https://ivubmsnjyitrvjejfdva.supabase.co";
+    const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml2dWJtc25qeWl0cnZqZWpmZHZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY1NzQ1NDgsImV4cCI6MjA2MjE1MDU0OH0.UXow3w-77d0euw0if8VltbJyrrfRtmLNiTFBSePgDRM";
     const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
     async function sendMessage() {
